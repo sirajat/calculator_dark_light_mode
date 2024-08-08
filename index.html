@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+    <div class="container">
+        <form action="">
+            <input disabled class="valueScreen" type="text" id="screen"><br>
+            <p>iCalc</p>
+            <input class="button nums" type="button" value="7" onclick="numberButton(value)">
+            <input class="button nums" type="button" value="8" onclick="numberButton(value)">
+            <input class="button nums" type="button" value="9" onclick="numberButton(value)">
+            <input class="button OP mode" type="button" value="MD"><br>
+
+            <input class="button nums" type="button" value="4" onclick="numberButton(value)">
+            <input class="button nums" type="button" value="5" onclick="numberButton(value)">
+            <input class="button nums" type="button" value="6" onclick="numberButton(value)">
+            <input class="button OP" type="button" value="/" onclick="numberButton(value)"><br>
+
+            <input class="button nums" type="button" value="1" onclick="numberButton(value)">
+            <input class="button nums" type="button" value="2" onclick="numberButton(value)">
+            <input class="button nums" type="button" value="3" onclick="numberButton(value)">
+            <input class="button OP" type="button" value="*" onclick="numberButton(value)"><br>
+
+            <input class="button nums" type="button" value="00" onclick="numberButton(value)">
+            <input class="button nums" type="button" value="0" onclick="numberButton(value)">
+            <input class="button nums" type="button" value="." onclick="numberButton(value)">
+            <input class="button OP" type="button" value="+" onclick="numberButton(value)"><br>
+
+            <input class="button OP" type="button" value="C" onclick="clearScreen ()">
+            <input class="button OP" type="button" value="%" onclick="numberButton(value)">
+            <input class="button OP" type="button" value="-" onclick="numberButton(value)">
+            <input class="button SM" type="button" value="=" onclick="resultS ()">
+        </form>
+    </div>
+</div>
+
+
+    
+ <script src="script.js"></script>   
+</body>
+</html>
